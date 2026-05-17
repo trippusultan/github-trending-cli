@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trending-repos"
+version = "1.0.0"
+description = "CLI tool that fetches and displays trending GitHub repositories."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28",
+    "rich>=13.0",
+]
+
+[project.scripts]
+trending-repos = "trending_repos:main"
+
+[project.urls]
+Homepage   = "https://github.com/trippusultan/github-trending-cli"
+Repository = "https://github.com/trippusultan/github-trending-cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["trending_repos*"]
