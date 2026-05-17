@@ -1,4 +1,4 @@
-**[Project URL](https://github.com/trippusultan/github-trending-cli)**
+**[Project URL](https://roadmap.sh/projects/github-trending-cli)**
 
 GitHub Trending CLI — a command-line tool that fetches and displays trending GitHub repositories sorted by star count. No authentication required for public data.
 
